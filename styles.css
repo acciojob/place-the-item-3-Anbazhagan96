@@ -1,14 +1,7 @@
-
 .holder {
     display: flex;                /* Enable flexbox on the holder */
     flex-wrap: wrap;             /* Allow items to wrap onto the next line */
-    justify-content: space-between; /* Distribute items evenly in the row */
+    justify-content: space-evenly; /* Change to space-evenly for equal spacing */
     align-items: center;         /* Align items vertically in the center */
     gap: 10px;                   /* Optional: add space between items */
-}
-
-.item {
-    flex: 1 1 auto;              /* Allow items to grow and shrink */
-    min-width: 150px;            /* Optional: set a minimum width for items */
-    max-width: 200px;            /* Optional: set a maximum width for items */
 }
